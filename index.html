@@ -7,11 +7,135 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <aside></aside>
+  <aside class="side-bar">
+    <div class="dashboard-logo">
+      <div class="icon dashboard-icon">
+        <svg>
+          <use href="sprite.svg#dashboard"></use>
+        </svg>
+      </div>
+      <p>Dashboard</p>
+    </div>
+
+    <div class="aside-primary-links">
+      <ul class="links">
+        <li>
+          <svg>
+            <use href="sprite.svg#home"></use>
+          </svg>
+          <p>Home</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#profile"></use>
+          </svg>
+          <p>Profile</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#message"></use>
+          </svg>
+          <p>Message</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#history"></use>
+          </svg>
+          <p>History</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#task"></use>
+          </svg>
+          <p>Task</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#community"></use>
+          </svg>
+          <p>Community</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="aside-secondary-links">
+      <ul class="links">
+        <li>
+          <svg>
+            <use href="sprite.svg#home"></use>
+          </svg>
+          <p>Home</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#profile"></use>
+          </svg>
+          <p>Profile</p>
+        </li>
+
+        <li>
+          <svg>
+            <use href="sprite.svg#message"></use>
+          </svg>
+          <p>Message</p>
+        </li>
+
+      </ul>
+    </div>
+  </aside>
   <main>
-    <header></header>
+    <header>
+
+    </header>
     <div class="content"></div>
   </main>
+
+<!-- all the svgs here -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="icon-1" viewBox="0 0 24 24">
+     <path d="..."/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="bell" viewBox="0 0 24 24">
+     <path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" />
+   </symbol>
+ 
+   <symbol id="dashboard" viewBox="0 0 24 24">
+     <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="home" viewBox="0 0 24 24">
+     <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="profile" viewBox="0 0 24 24">
+     <path d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="community" viewBox="0 0 24 24">
+     <path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="message" viewBox="0 0 24 24">
+     <path d="M22,4C22,2.89 21.1,2 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="history" viewBox="0 0 24 24">
+     <path d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+   <symbol id="task" viewBox="0 0 24 24">
+     <path d="M19,19H5V8H19M19,3H18V1H16V3H8V1H6V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M16.53,11.06L15.47,10L10.59,14.88L8.47,12.76L7.41,13.82L10.59,17L16.53,11.06Z"/> <!-- Path data for the first icon -->
+   </symbol>
+ 
+ </svg>
   
 </body>
 </html>

@@ -13,8 +13,9 @@ body {
 }
 
 aside {
-  border: 2px solid blue;
+  background-color: #1892d3;
   height: 100vh;
+  padding-left: 20px;
 }
 main {
   border: 2px solid red;
@@ -31,3 +32,35 @@ main .content {
   border: 4px solid black;
 }
 
+svg {
+  fill: #fffff9;
+  width: 20px;
+  height: 20px;
+}
+
+.dashboard-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 5px 20px 10px;
+}
+.dashboard-logo p {
+  color: #fffff9;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.aside-primary-links {
+  margin: 50px 0;
+}
+
+.links li {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 5px 20px 10px;
+  color: #fffff9;
+  font-size: 1rem;
+}
