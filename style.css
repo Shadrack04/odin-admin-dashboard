@@ -5,11 +5,11 @@
 }
 
 body {
+  background-color: black;
   width: 80vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 20% 80%;
-  gap: 3px;
 }
 
 aside {
@@ -18,7 +18,7 @@ aside {
   padding-left: 20px;
 }
 main {
-  border: 2px solid red;
+  background-color: #e1e8f1;
   height: 100vh;
   display: grid;
   grid-template-rows: 20% 80%;
@@ -67,7 +67,7 @@ header .top-bar .search-container {
   align-items: center;
 }
 .profile-container svg {
-  fill: black;
+  fill: yellow;
 }
 #profile-head {
   width: 40px;
@@ -80,11 +80,33 @@ header .top-bar .search-container {
 }
 
 header .bottom-bar {
-  border: 2px solid brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom-bar .profile-intro {
+  display: flex;
+}
+.profile-intro svg {
+  fill: yellow;
+  width: 60px;
+  height: 60px;
+  margin: 0 15px 0 30px;
+}
+.bottom-bar .btn-container {
+  margin-right: 30px;
+}
+.btn-container .btn {
+  all: unset;
+  background-color: #1892d3;
+  padding: 5px 20px;
+  border-radius: 15px;
+  color: #ffffff;
+  margin: 0 6px;
 }
 
 main .content {
-  border: 4px solid black;
+  background-color: #e1e8f1;
 }
 
 svg {
